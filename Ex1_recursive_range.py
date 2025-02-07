@@ -1,4 +1,4 @@
-#________ EX.1
+# Ex.1:
 
 # Write a function that implements range recursively.
 # The function should take three arguments:
@@ -21,11 +21,26 @@ def recursive_range(start, final, jump):
     print(start, end=" ")  # Print the current number
     recursive_range(start + jump, final, jump)  # Recursive call with next step
 
-# Example usage:
 recursive_range(8, 15, 3)
 
-
 #______________________________________________________________________________________________________
+
+# Diagrama:
+# recursive_range(8, 15, 3)
+# │
+# ├── Prints: 8
+# │   └── Calls recursive_range(11, 15, 3)
+# │
+# ├── Prints: 11
+# │   └── Calls recursive_range(14, 15, 3)
+# │
+# ├── Prints: 14
+# │   └── Calls recursive_range(17, 15, 3)
+# │
+# └── Stops (17 > 15) → Base case reached
+
+#_______________________________________________________________
+
 # The function works by starting from 8 and adding jump (3) each time, as long as the next number does not exceed final = 15.
 
 # Step-by-Step Execution:
@@ -43,20 +58,5 @@ recursive_range(8, 15, 3)
 # Calls recursive_range(17, 15, 3)
 # 4th Call: recursive_range(17, 15, 3)
 # start = 17, but 17 is greater than 15, so the function stops here (base case met).
-
-# Diagrama:
-# recursive_range(8, 15, 3)
-# │
-# ├── Prints: 8
-# │   └── Calls recursive_range(11, 15, 3)
-# │
-# ├── Prints: 11
-# │   └── Calls recursive_range(14, 15, 3)
-# │
-# ├── Prints: 14
-# │   └── Calls recursive_range(17, 15, 3)
-# │
-# └── Stops (17 > 15) → Base case reached
-
 
 
