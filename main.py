@@ -1,16 +1,16 @@
-# This is a sample Python script.
+# main.py
+import sys
+from Ex5_tree_builder import build_tree
 
-# Press Shift+F10 to execute it or replace it with your code.
-# Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
+if __name__ == "__main__":
+    if len(sys.argv) < 2:
+        print("Usage: python main.py <directory_path>")
+        sys.exit(1)
 
+    root_path = sys.argv[1]  # Get path from command-line arguments
+    root = build_tree(root_path)
 
-def print_hi(name):
-    # Use a breakpoint in the code line below to debug your script.
-    print(f'Hi, {name}')  # Press Ctrl+F8 to toggle the breakpoint.
-
-
-# Press the green button in the gutter to run the script.
-if __name__ == '__main__':
-    print_hi('PyCharm')
-
-# See PyCharm help at https://www.jetbrains.com/help/pycharm/
+    if root:
+        root.draw()
+    else:
+        print("Invalid path!")
