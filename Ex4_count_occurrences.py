@@ -30,6 +30,7 @@ def count_occurrences(lst, num):
 print(count_occurrences([1, 2, 2, 3, 2, 4], 2))  # Output: 3
 print(count_occurrences([5, 5, 5, 5], 5))        # Output: 4
 print(count_occurrences([1, 2, 3, 4], 6))        # Output: 0
+
 #_______________________________________________________________________________
 
 # Recursive Call Diagram
