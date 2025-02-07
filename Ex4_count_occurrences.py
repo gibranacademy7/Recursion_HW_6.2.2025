@@ -33,7 +33,8 @@ print(count_occurrences([1, 2, 3, 4], 6))        # Output: 0
 
 #_______________________________________________________________________________
 
-# Recursive Call Diagram
+# Recursive Call Diagram:
+
 # Example: count_occurrences([1, 2, 2, 3, 2, 4], 2)
 
 # 1. count_occurrences([1, 2, 2, 3, 2, 4], 2)
