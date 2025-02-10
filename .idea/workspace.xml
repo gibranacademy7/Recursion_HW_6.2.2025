@@ -5,13 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b971f0eb-aa93-41ef-ac49-a0c3b433dd9b" name="Changes" comment="Start...">
-      <change afterPath="$PROJECT_DIR$/Ex5_component.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ex5_directory_composite.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ex5_file_leaf.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ex5_question_&amp;_Diagrama.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ex5_tree_builder.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ex5_main.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ex5_component.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,6 +51,8 @@
     "Python.Ex2_Factorial.executor": "Run",
     "Python.Ex3_sum_of_digits.executor": "Run",
     "Python.Ex4_count_occurrences.executor": "Run",
+    "Python.Ex5_main.executor": "Run",
+    "Python.Ex5_tree_builder.executor": "Run",
     "Python.main.executor": "Run",
     "Python.test_folders.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -134,7 +132,15 @@
       <option name="project" value="LOCAL‎" />
       <updated>1738925861342</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL‎-00005" summary="Start...">
+      <option name="closed" value="true" />
+      <created>1738933194016</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL‎-00005" />
+      <option name="project" value="LOCAL‎" />
+      <updated>1738933194016</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
